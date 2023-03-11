@@ -1,0 +1,188 @@
+if game.PlaceId==6284583030 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "♦️Pet Simulator X | [☄️COMETS] Pet Simulator X!", HidePremium = false, SaveConfig = true, ConfigFolder = "petsimulatorxConfig"})
+
+local TradeScam = Window:MakeTab({ 	Name = "TradeScam", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local AutoFarm= Window:MakeTab({ 	Name = "AutoFarm", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Visual= Window:MakeTab({ 	Name = "Visual", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Dupe= Window:MakeTab({ 	Name = "Dupe", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Discord= Window:MakeTab({ 	Name = "Disord", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Player Stuff= Window:MakeTab({ 	Name = "Player Stuff", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+TradeScam:AddToggle({
+	Name = "Trade Scam (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+AutoFarm:AddToggle({
+	Name = "AutoFarm (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+AutoFarm:AddToggle({
+	Name = "AutoFarm Pixel Vault (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+AutoFarm:AddToggle({
+	Name = " AutoFarm Cat Kingdom(Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+AutoFarm:AddToggle({
+	Name = "AutoFarm Doodle Cave(Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+AutoFarm:AddToggle({
+	Name = "AutoFinish PetSimulatorX(Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Basic (Banana)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Basic (Bladee)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Basic (Huge Pegasus)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Exclusive (Titanic Hubert)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Exclusive (Titanic Jolly Cat)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Exclusive (Titanic Balloon Monkey)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Exclusive (Titanic Neon Agony)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Exclusive (Titanic Dominus Astra)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Huge Hell Rock (Titanic Red Balloon Cat)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Huge Hell Rock (Titanic Blue Balloon Cat)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Visual:AddToggle({
+	Name = "Huge Hell Rock (Titanic Hippomelon)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Dupe:AddToggle({
+	Name = "Gems (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Dupe:AddToggle({
+	Name = "Huges (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Dupe:AddToggle({
+	Name = "Titanic (Enable)",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Dupe:AddToggle({
+	Name = "JUST CLICK ONCE",
+	Default = false,
+	Callback = function(Value)
+	end    
+})
+
+
+
+
+end
+OrionLib:Init()
